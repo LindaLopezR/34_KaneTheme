@@ -1,0 +1,31 @@
+.color {
+	background-color: blue;
+}
+.color2 {
+	background-color: red;
+}
+.progress-1 {
+	width: 95%;
+}
+.progress-2 {
+	width: 90%;
+}
+.progress-3 {
+	width: 70%;
+}
+.progress-4 {
+	width: 80%;
+}
+.progress-5 {
+	width: 85%;
+}
+.bicolor {
+	background-color: blue;
+	width: 45%;
+}
+table {
+	border: 2px solid red;
+}
+blockquote {
+	width: 50%;
+}
