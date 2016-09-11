@@ -8,7 +8,7 @@
 .icon-bar {
 	border: .2em solid white;
 }
-ul.navbar-right li a:hover {
+ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 	background-color: #4B8A08 !important;
 }
 .jumbotron {
@@ -25,8 +25,8 @@ ul.navbar-right li a:hover {
 	background-color: red;
 }
 /*COLORES DE LETRAS*/
-.c-Whit {
-	color: white;
+.co-Wh, .btn-bla {
+	color: white !important;
 }
 /*COLORES DE PALETA*/
 .c-1 {
@@ -121,13 +121,20 @@ ul.navbar-right li a:hover {
 	-webkit-transform: rotate(45deg);
 }
 .opcion {
-	padding: 0 5%;
-}
-.opcion:hover {
-	background-color: #4B8A08;
+	padding: 2% 5%;
 }
 .opcion h3:hover {
 	color: #B45F04;
+}
+
+/*BOTONES*/
+.btn-bla {
+	background-color: #2F0B3A;
+	font-size: 1em !important;
+	margin-bottom: 5% !important;
+}
+.btn-bla:hover {
+	color: #2F0B3A!important;
 }
 /*BARRAS DE PROGRESO*/
 .progress-1 {
@@ -149,18 +156,20 @@ ul.navbar-right li a:hover {
 h1+hr {
 	width: 20%;
 }
-
+/*OFERTAS*/
 table {
 	border: 2px solid red;
+}
+/*CITA/DIRECCIÓN*/
+address {
+	padding:0 5%;
 }
 blockquote {
 	width: 50%;
 }
+/*FOOTER*/
 footer {
 	background-color: green;
-}
-address {
-	padding:0 5%;
 }
 .condicion {
 	display: inline-block;
@@ -174,4 +183,7 @@ address {
 }
 .mar-10 {
 	margin-top: 10%;
+}
+.mar-15 {
+	margin-top: 15%;
 }

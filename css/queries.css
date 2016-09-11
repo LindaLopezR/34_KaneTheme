@@ -14,8 +14,14 @@
 		margin-bottom: 5%;
 		padding: 3% 2%;
 	}
+	.opcion2 {
+		padding: 2% 7%;
+	}
 	h3+hr {
 		width: 50%;
+	}
+	.btn-bla {
+		padding: 3% 5%;
 	}
 }
 @media screen and (max-width: 768px) { /*VISTA MAX. CELULAR*/
@@ -26,5 +32,8 @@
 @media screen and (min-width: 990px) { /*VISTA MAX. CELULAR*/
 	.jumbotron {
 		background-size: 100%;
+	}
+	.btn-bla {
+		padding: 2% 3%;
 	}
 }
