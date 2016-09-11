@@ -7,6 +7,16 @@
 		opacity: 0;
 		font-size: 1% !important;
 	}
+	.image {
+		width: 100%;
+	}
+	.opcion {
+		margin-bottom: 5%;
+		padding: 3% 2%;
+	}
+	h3+hr {
+		width: 50%;
+	}
 }
 @media screen and (max-width: 768px) { /*VISTA MAX. CELULAR*/
 	.jumbotron {

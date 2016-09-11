@@ -1,5 +1,5 @@
 /*ENCABEZADO*/
-.navbar-green {
+.navbar-green, .color1 {
 	background-color: #04B431;
 }
 .navbar-header, .navbar-nav {
@@ -19,10 +19,14 @@ ul.navbar-right li a:hover {
 }
 /*COLORES DE FONDO*/
 .color {
-	background-color: blue;
+	background-color: #0B243B;
 }
 .color2 {
 	background-color: red;
+}
+/*COLORES DE LETRAS*/
+.c-Whit {
+	color: white;
 }
 /*COLORES DE PALETA*/
 .c-1 {
@@ -55,9 +59,75 @@ ul.navbar-right li a:hover {
 .c-10 {
 	background-color: #FDF200;
 }
+.c-11 {
+	background-color: #DB3340;
+}
+.c-12 {
+	background-color: #E8B71A;
+}
+.c-13 {
+	background-color: #F7EAC8;
+}
+.c-14 {
+	background-color: #1FDA9A;
+}
+.c-15 {
+	background-color: #28ABE3;
+}
+.c-16 {
+	background-color: #588C73;
+}
+.c-17 {
+	background-color: #F2E394;
+}
+.c-18 {
+	background-color: #F2AE72;
+}
+.c-19 {
+	background-color: #D96459;
+}
+.c-20 {
+	background-color: #8C4646;
+}
+.c-21 {
+	background-color: #D0C91F;
+}
+.c-22 {
+	background-color: #85C4B9;
+}
+.c-23 {
+	background-color: #008BBA;
+}
+.c-24 {
+	background-color: #DF514C;
+}
+.c-25 {
+	background-color: #DC403B;
+}
 [class*=" c-"] {
 	padding-bottom: 8%;
 	margin-bottom: 1%;
+}
+.bicolor {
+	width: 50%;
+	padding: 5% 0;
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#0B173B), to(#088A85));
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+.bicolor:hover {
+	transform: rotate(270deg);
+	background-color: #B45F04;
+	-webkit-transform: rotate(45deg);
+}
+.opcion {
+	padding: 0 5%;
+}
+.opcion:hover {
+	background-color: #4B8A08;
+}
+.opcion h3:hover {
+	color: #B45F04;
 }
 /*BARRAS DE PROGRESO*/
 .progress-1 {
@@ -75,10 +145,11 @@ ul.navbar-right li a:hover {
 .progress-5 {
 	width: 85%;
 }
-.bicolor {
-	background-color: blue;
-	width: 45%;
+/*SEPARACIONES*/
+h1+hr {
+	width: 20%;
 }
+
 table {
 	border: 2px solid red;
 }
@@ -97,6 +168,9 @@ address {
 /*MARGENES*/
 .mar-3 {
 	margin-top: 3%;
+}
+.mar-5 {
+	margin-top: 5%;
 }
 .mar-10 {
 	margin-top: 10%;
