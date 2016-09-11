@@ -29,3 +29,12 @@ table {
 blockquote {
 	width: 50%;
 }
+footer {
+	background-color: green;
+}
+address {
+	padding:0 5%;
+}
+.condicion {
+	display: inline-block;
+}
