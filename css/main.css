@@ -14,7 +14,6 @@ ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 .jumbotron {
 	color: white;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	background-image: url(../img/carousel-bg.jpg);
 }
 /*COLORES DE FONDO*/
@@ -167,7 +166,7 @@ ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 	width: 85%;
 }
 /*SEPARACIONES*/
-h1+hr {
+h1+hr, h4+hr {
 	width: 20%;
 }
 .division {
@@ -192,9 +191,12 @@ blockquote {
 }
 /*SECCIÓN REDES SOCIALES*/
 .social {
-	background-image: url(../img/img-divider-img.jpg);
-	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: 100% 4s0%;
+	background-image: url(../img/img-divider-img.jpg);
+}
+.jumbotron, .social {
+	background-repeat: no-repeat;
 }
 /*FOOTER*/
 .fondo {
@@ -215,6 +217,9 @@ blockquote {
 }
 .mar-15 {
 	margin-top: 15%;
+}
+.mab-5 {
+	margin-bottom: 5%;
 }
 .mab-10 {
 	margin-bottom: 10%;
