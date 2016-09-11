@@ -10,18 +10,26 @@
 	.image {
 		width: 100%;
 	}
-	.opcion {
-		margin-bottom: 5%;
+	.opcion { /*CUADRADOS BICOLOR*/
 		padding: 3% 2%;
 	}
 	.opcion2 {
-		padding: 2% 7%;
+		padding: 5%;
+	}
+	.opcion, .opcion2 {
+		margin-bottom: 5%;
 	}
 	h3+hr {
 		width: 50%;
 	}
-	.btn-bla {
+	.btn-bla, td button {
 		padding: 3% 5%;
+	}
+	.icon1 {
+		margin-top: 3%;
+	}
+	.ta-2 { /*SEPARACION DE TABLAS INFERIORES*/
+		margin-top: 10%;
 	}
 }
 @media screen and (max-width: 768px) { /*VISTA MAX. CELULAR*/
@@ -33,7 +41,16 @@
 	.jumbotron {
 		background-size: 100%;
 	}
-	.btn-bla {
+	.btn-bla, .opcion2 {
 		padding: 2% 3%;
+	}
+	.opcion2 {
+		margin-bottom: 12%;
+	}
+	.icon1 {
+		margin-top: 10%;
+	}
+	td button {
+		padding: 3% 6% !important;
 	}
 }

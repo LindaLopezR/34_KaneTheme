@@ -1,5 +1,5 @@
 /*ENCABEZADO*/
-.navbar-green, .color1 {
+.navbar-green, .color1, .color3 {
 	background-color: #04B431;
 }
 .navbar-header, .navbar-nav {
@@ -22,10 +22,14 @@ ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 	background-color: #0B243B;
 }
 .color2 {
-	background-color: red;
+	background-color: #B45F04;
+}
+.color4 {
+	background-color: white;
+	color: black;
 }
 /*COLORES DE LETRAS*/
-.co-Wh, .btn-bla {
+.co-Wh, .btn-bla, td button, .color2 {
 	color: white !important;
 }
 /*COLORES DE PALETA*/
@@ -117,24 +121,34 @@ ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 }
 .bicolor:hover {
 	transform: rotate(270deg);
-	background-color: #B45F04;
 	-webkit-transform: rotate(45deg);
 }
 .opcion {
 	padding: 2% 5%;
 }
-.opcion h3:hover {
+.opcion h3:hover, blockquote footer {
 	color: #B45F04;
 }
-
-/*BOTONES*/
+/*BOTONES-ICONOS*/
 .btn-bla {
+	margin-bottom: 5% !important;
+}
+.btn-bla, td button {
 	background-color: #2F0B3A;
 	font-size: 1em !important;
-	margin-bottom: 5% !important;
 }
 .btn-bla:hover {
 	color: #2F0B3A!important;
+}
+.icon1 {
+	padding-right: 3%;
+}
+.icon2 {
+	padding-right: 2%;
+	color: white;
+}
+.icon1:hover, .icon2:hover {
+	color: #0B610B;
 }
 /*BARRAS DE PROGRESO*/
 .progress-1 {
@@ -156,19 +170,34 @@ ul.navbar-right li a:hover, .opcion:hover, .btn-bla:hover, .opcion2:hover {
 h1+hr {
 	width: 20%;
 }
+.division {
+	border: 1px dashed #0B3B0B;
+}
 /*OFERTAS*/
 table {
-	border: 2px solid red;
+	border: 1px solid #4B8A08;
+}
+table:hover {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+	border: 2px solid #B45F04;
 }
 /*CITA/DIRECCIÓN*/
 address {
 	padding:0 5%;
 }
 blockquote {
-	width: 50%;
+	width: 60%;
+}
+/*SECCIÓN REDES SOCIALES*/
+.social {
+	background-image: url(../img/img-divider-img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 /*FOOTER*/
-footer {
+.fondo {
 	background-color: green;
 }
 .condicion {
@@ -186,4 +215,7 @@ footer {
 }
 .mar-15 {
 	margin-top: 15%;
+}
+.mab-10 {
+	margin-bottom: 10%;
 }
