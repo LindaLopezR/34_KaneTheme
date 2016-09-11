@@ -1,9 +1,65 @@
+/*ENCABEZADO*/
+.navbar-green {
+	background-color: #04B431;
+}
+.navbar-header, .navbar-nav {
+	margin: 2% 0;
+}
+.icon-bar {
+	border: .2em solid white;
+}
+ul.navbar-right li a:hover {
+	background-color: #4B8A08 !important;
+}
+.jumbotron {
+	color: white;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url(../img/carousel-bg.jpg);
+}
+/*COLORES DE FONDO*/
 .color {
 	background-color: blue;
 }
 .color2 {
 	background-color: red;
 }
+/*COLORES DE PALETA*/
+.c-1 {
+	background-color: #69D2E7;
+}
+.c-2 {
+	background-color: #A7DBDB;
+}
+.c-3 {
+	background-color: #E0E4CC;
+}
+.c-4 {
+	background-color: #F38630;
+}
+.c-5 {
+	background-color: #FA6900;
+}
+.c-6 {
+	background-color: #E94C6F;
+}
+.c-7 {
+	background-color: #542733;
+}
+.c-8 {
+	background-color: #5A6A62;
+}
+.c-9 {
+	background-color: #C6D5CD;
+}
+.c-10 {
+	background-color: #FDF200;
+}
+[class*=" c-"] {
+	padding-bottom: 8%;
+	margin-bottom: 1%;
+}
+/*BARRAS DE PROGRESO*/
 .progress-1 {
 	width: 95%;
 }
@@ -37,4 +93,11 @@ address {
 }
 .condicion {
 	display: inline-block;
+}
+/*MARGENES*/
+.mar-3 {
+	margin-top: 3%;
+}
+.mar-10 {
+	margin-top: 10%;
 }
