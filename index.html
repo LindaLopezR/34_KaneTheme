@@ -29,12 +29,12 @@
                         <div class="collapse navbar-collapse" id="navbar-1">
                             <ul class="nav navbar-nav navbar-right text-center">
                                 <li><a href="#about">About</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Price</a></li>
-                                <li><a href="#">Clients</a></li>
-                                <li><a href="#">Facts</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#price">Price</a></li>
+                                <li><a href="#clients">Clients</a></li>
+                                <li><a href="#facts">Facts</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
         <section class="color">
             <div class="container">
                 <div class="row text-center co-Wh">
-                    <h1>ABOUT US</h1>
+                    <a name="about"><h1>ABOUT US</h1></a>
                     <hr>
                 </div>
                 <div class="row co-Wh">
@@ -175,8 +175,31 @@
                         </div>
                         <p class="visible-md visible-lg">PHOTOSHOP/ILLUSTRATOR</p>
                     </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img src="img/agency-img3.jpg" class="img-responsive image" alt="Alambre">
+                    <div class="col-xs-12 col-md-6 mab-5">
+                        <div class="row"> <!-- CARRUSEL -->
+                            <div class="col-xs-12">
+                                <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                                    <!-- INDICADORES DEL CARRUSEL -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-1" data-slide-to="1"></li>
+                                        <li data-target="#carousel-1" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- CONTENIDO DEL CARRUSEL -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="img/agency-img.jpg" alt="Slider1">
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="img/agency-img2.jpg" alt="Slider2">
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="img/agency-img3.jpg" alt="Slider3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -185,7 +208,7 @@
             <div class="container">
                 <div class="col-xs-12 col-md-12">
                     <div class="row text-center mar-5 co-Wh">
-                        <h1>WHAT WE DO</h1>
+                        <a name="service"><h1>WHAT WE DO</h1></a>
                         <hr>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     </div>
@@ -218,14 +241,14 @@
                     <div class="row">
                         <button type="button" class="btn btn-bla center-block">HIRE US NOW!</button>
                     </div>
-                    <div class="row text-center co-Wh mar-10"> <!-- EQUIPO DE TRABAJO -->
-                        <h1>OUR AWESOME TEAM</h1>
+                    <div class="row text-center co-Wh mar-10">
+                        <a name="team"><h1>OUR AWESOME TEAM</h1></a><!-- EQUIPO DE TRABAJO -->
                         <hr>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     </div>
                     <div class="row text-center co-Wh mar-5">
                         <div class="col-xs-12 col-md-3 opcion2">
-                            <img src="img/team/1.jpg" alt="Integrante">
+                            <img src="img/team/1.jpg" alt="Integrante" class="foto">
                             <h3>Jane Doe<br><small>CEO / Founder</small></h3>
                             <hr class="division">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima dignissimos, facilis provident natus animi ea perspiciatis omnis fugiat laboriosam, esse numquam, maxime excepturi praesentium.</p>
@@ -236,7 +259,7 @@
                             <a href="https://www.instagram.com/" target="_blanck"><span class="icon1 fa fa-instagram fa-2x"></span></a>
                         </div>
                         <div class="col-xs-12 col-md-3 opcion2">
-                            <img src="img/team/1.jpg" alt="Integrante">
+                            <img src="img/team/1.jpg" alt="Integrante" class="foto">
                             <h3>Jane Doe<br><small>CEO / Founder</small></h3>
                             <hr class="division">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima dignissimos, facilis provident natus animi ea perspiciatis omnis fugiat laboriosam, esse numquam, maxime excepturi praesentium.</p>
@@ -247,7 +270,7 @@
                             <a href="https://www.instagram.com/" target="_blanck"><span class="icon1 fa fa-instagram fa-2x"></span></a>
                         </div>
                         <div class="col-xs-12 col-md-3 opcion2">
-                            <img src="img/team/1.jpg" alt="Integrante">
+                            <img src="img/team/1.jpg" alt="Integrante" class="foto">
                             <h3>Jane Doe<br><small>CEO / Founder</small></h3>
                             <hr class="division">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima dignissimos, facilis provident natus animi ea perspiciatis omnis fugiat laboriosam, esse numquam, maxime excepturi praesentium.</p>
@@ -258,7 +281,7 @@
                             <a href="https://www.instagram.com/" target="_blanck"><span class="icon1 fa fa-instagram fa-2x"></span></a>
                         </div>
                         <div class="col-xs-12 col-md-3 opcion2">
-                            <img src="img/team/1.jpg" alt="Integrante">
+                            <img src="img/team/1.jpg" alt="Integrante" class="foto">
                             <h3>Jane Doe<br><small>CEO / Founder</small></h3>
                             <hr class="division">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos minima dignissimos, facilis provident natus animi ea perspiciatis omnis fugiat laboriosam, esse numquam, maxime excepturi praesentium.</p>
@@ -276,7 +299,7 @@
             <div class="container text-center">
                 <div class="col-md-12">
                     <div class="row mar-10"> <!-- PRECIOS DEL SERVICIO -->
-                        <h1>BEST PRICE GURANTEED</h1>
+                        <a name="price"><h1>BEST PRICE GURANTEED</h1></a>
                         <hr>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     </div>
@@ -419,7 +442,7 @@
                         </div>
                     </div>
                     <div class="row mar-15"> <!-- OPINIONES DE LOS CLIENTES -->
-                        <h1>WHAT OUR CLIENTS SAY</h1>
+                        <a name="clients"><h1>WHAT OUR CLIENTS SAY</h1></a>
                         <hr>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     </div>
@@ -442,7 +465,7 @@
                         </blockquote>
                     </div>
                     <div class="row mar-10"> <!-- INICIO FORMULARIO -->
-                        <h1>GET IN TOUCH</h1>
+                        <a name="facts"><h1>GET IN TOUCH</h1></a>
                         <hr>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     </div>
@@ -478,7 +501,7 @@
             <div class="container">
                 <div class="row text-center mar-3 co-Wh">
                     <div class="col-xs-6 col-md-4">
-                        <h4>Visit Us</h4>
+                        <a name="contact"><h4>Visit Us</h4></a>
                         <hr>
                         <div class="container">
                             <address class="text-left">
